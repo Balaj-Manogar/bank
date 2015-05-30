@@ -8,7 +8,7 @@ import javax.swing.table.TableStringConverter;
 public class DataBase
 {
 	private static DataBase instance = null;
-	private ArrayList<HashMap<Integer, ClientDetail>> table = new ArrayList<>();
+	private ArrayList<HashMap<Integer, ClientDetail>> table = new ArrayList<HashMap<Integer, ClientDetail>>();
 
 	private DataBase()
 	{
